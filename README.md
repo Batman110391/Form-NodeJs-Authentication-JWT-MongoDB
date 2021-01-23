@@ -10,6 +10,10 @@
 - npm install bcryptjs (encrypt the password so that it cannot be recognized when sending data) 
 - npm install jsonwebtoken (generate a token for the user) 
 
+IMPORTANT!
+the node_modules folder is not included in this repository .. 
+which is automatically generated if you follow the steps above
+
 # Frameworks and Libraries used
 
 * Nodejs
