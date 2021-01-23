@@ -21,3 +21,10 @@
 
 # Inspired by
 - https://www.youtube.com/watch?v=2jqok-WgelI&t=149s
+
+
+PREVIEW:
+
+![t1](https://user-images.githubusercontent.com/74873935/105574803-4674b380-5d67-11eb-9a81-c4454bcbf594.JPG)
+![t2](https://user-images.githubusercontent.com/74873935/105574805-47a5e080-5d67-11eb-93c7-ff812a6237d4.png)
+![t3](https://user-images.githubusercontent.com/74873935/105574808-48d70d80-5d67-11eb-8b52-0598f6a2454b.png)
