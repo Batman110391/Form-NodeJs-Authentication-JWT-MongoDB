@@ -1,0 +1,126 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: cornflowerblue;
+}
+
+.box {
+  height: 100vh;
+  min-height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-form {
+  z-index: 999;
+  text-align: center;
+  background: #dadada6b;
+  padding: 30px;
+  width: 367px;
+  height: 440px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 10px 4px #5f81fb;
+          box-shadow: 0 4px 10px 4px #5f81fb;
+  position: relative;
+  border-top-left-radius: 0;
+}
+
+.container-form .auth {
+  color: #ffffffde;
+  font-weight: 600;
+  border: transparent;
+  font-size: 18px;
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: 3px;
+  background-color: #5f81fb;
+  outline: none;
+}
+
+.container-form .signup {
+  z-index: 2;
+}
+
+.container-form .login {
+  left: 90px;
+  z-index: 1;
+}
+
+.container-form .show {
+  z-index: 10;
+  border: 2px solid;
+  border-bottom: transparent;
+  font-size: 20px;
+}
+
+.container-form h1 {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.container-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.container-form form input {
+  background-color: #f0f8ffe3;
+  border: 2px solid transparent;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.container-form form input:focus {
+  outline: 0;
+  border: 2px outset #5f81fb;
+}
+
+.container-form button {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 32px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.container-form #send {
+  color: #ffffffde;
+  font-weight: 600;
+  background-color: #5f81fb;
+  border-radius: 10px;
+  outline: none;
+  border: transparent;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container-form #name {
+  display: none;
+}
